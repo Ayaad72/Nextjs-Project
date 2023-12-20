@@ -16,6 +16,7 @@ function Welcome() {
         <button>WALLET Provided by the site</button>
         <p>New to Etheureum?</p>
         <p>Learn more about wallets</p>
+        <p>By connecting your wallet, you agree to our Termrivacy Policy.</p>
       </div>
     </div>
         </div>
