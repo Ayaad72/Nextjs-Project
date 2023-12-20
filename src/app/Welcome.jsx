@@ -10,7 +10,7 @@ function Welcome() {
     <div className="main-prt">
       <div className='connect'>
         <h2>Connect Your Wallet</h2>
-        <p>By connecting your wallet, you agree to our Terms of Service and our Privacy Policy.</p>
+        <p>By connecting your wallet, you agree to our Termrivacy Policy.</p>
       </div>
       
     </div>
