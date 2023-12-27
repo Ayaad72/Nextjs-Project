@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow: hidden;
+}
+
+
+
+.Artwork-component {
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.Art-img1,
+.Art-img2,
+.Art-img3 {
+    width: 25%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    overflow: hidden; /* To prevent the image from overflowing its container */
+}
+
+#img1:hover,
+#img2:hover,
+#img3:hover {
+  
+    cursor: pointer;
+}

@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Artwork-Title {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Artwork-Title h2 {
+    letter-spacing: 4px;
+    font-weight: 400;
+    position: relative;
+}
+
+.Artwork-Title h2::after {
+    content: "";
+    display: block;
+    width: 90%; /* Adjust the width of the line as needed */
+    height: 2px; /* Adjust the thickness of the line as needed */
+    background-color: #000; /* Adjust the color of the line as needed */
+    position: absolute;
+    bottom: -8px; /* Adjust the gap between the line and text */
+    left: 50%;
+    transform: translateX(-50%);
+}
