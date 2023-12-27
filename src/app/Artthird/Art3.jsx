@@ -1,7 +1,7 @@
 import React from "react";
 import "../ArtComponents/Artcomponent.css";
 import Image from "next/image";
-import yueki from "../../assets/yueki.png";
+import yueki from "../../assets/Yueki.png";
 
 function Artcomponent() {
   return (

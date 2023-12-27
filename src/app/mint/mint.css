@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.6em;
+}
+
+.home-main {
+  width: 100%;
+  height: 14vh;
+  border: 1px solid;
+  display: flex;
+}
+
+.logo {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 14vh;
+}
+.logo img {
+  width: 190px;
+  height: 50px;
+}
+.header-links {
+  width: 40%;
+  height: 14vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.wallet-btn {
+  width: 30%;
+  height: 14vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wallet-btn button {
+  width: 143px;
+  height: 42px;
+  background-color: #13bae4;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  border-radius: 50px;
+}
+.container {
+  background: #0099bf;
+  width: 100%;
+  height: 128vh;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#image {
+  width: 459px;
+  height: 499px;
+  margin-left: 28%;
+  box-shadow: purple;
+}
+
+/* section-mauin */
+.rectangle-91 {
+  background-color: #0099bf;
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  overflow: hidden;
+}
+
+.rectangle-prt1 {
+  width: 85%;
+  height: 75vh;
+
+  background-color: white;
+  display: flex;
+  justify-content: center;
+
+  align-items: end;
+}
+#grl-img {
+  width: 390px;
+  height: 460px;
+  position: relative;
+  top: 24px;
+}
+.ARTWORKCREATORNAME1 {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  position: absolute;
+  margin-left: 12%;
+  line-height: 11px;
+}
+/* #Aw2 {
+  position: absolute;
+  margin-left: 54%;
+  margin-right: 2px;
+  bottom: -76%;
+} */
+.artInfo {
+  color: #878181;
+  margin-left: 8px;
+}
+#currentBid {
+  display: flex;
+  height: 56vh;
+  width: 10%;
+  align-items: center;
+  margin-left: 50%;
+}
+#creatorName {
+  height: 11vh;
+  position: absolute;
+  margin-left: 57%;
+  margin-right: 0px;
+  bottom: -95%;
+  width: 25%;
+}
+#sourceImage {
+  height: 27vh;
+  position: relative;
+  width: 407%;
+  margin-left: 35%;
+  bottom: 118px;
+}
+#buyButton,
+#placeAbid {
+  display: inline; /* Set to "block" if you want them on separate lines */
+  margin-right: 10px; /* Adjust the margin to create some space between the buttons */
+  width: 216px;
+  height: 51px;
+  border-radius: 50px;
+  position: relative;
+  left: 680px;
+  bottom: 430px;
+  background: #4b7cf8;
+  box-shadow: 0px 4px 4px 0px rgba(42, 36, 36, 0.25);
+  cursor: pointer;
+  border: none;
+}
+#threeepics {
+  height: 40vh;
+  width: 40%;
+  position: relative;
+  left: 17%;
+  bottom:130px;
+}
+/* #buyButton {
+  width: 216px;
+  height: 51px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: #4b7cf8;
+  box-shadow: 0px 4px 4px 0px rgba(42, 36, 36, 0.25);
+  cursor: pointer;
+}
+#placeAbid {
+  width: 216px;
+  height: 51px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: #4b7cf8;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+} */
