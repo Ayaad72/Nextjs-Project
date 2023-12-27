@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.economy{
+    width: 100%;
+    height: 70vh;
+
+    display: flex;
+}
+.economy-prt1{
+    width: 40%;
+    height: 70vh;
+  
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.economy-prt2{
+    width: 60%;
+    height: 70vh;
+   
+     color: #373F41;
+gap: 40px;
+display: flex;
+flex-direction: column;
+}    
+    
+
+#economy{
+    width: 350px;
+    height: 500px;
+}
+
+.loadmore{
+    width: 100%;
+    height: 20vh;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loadmore button{
+    width: 123px;
+    height: 43px;
+    padding: Padding
+    12px, 18px, 12px, 18px;
+    border-radius: 50px;
+    background-color: #00CCFF;
+    color: white;
+    border: none;
+    font-weight: 600;
+}
+
+.loadmore button:hover{
+    cursor: pointer;
+}
+
+.economy-prt2 h1{
+    font-size: 52px;
+    line-height: normal;
+    margin-left: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 7px;
+    margin-top: 18px;
+}
+
+.economy-prt2 p{
+    margin-left: 80px;
+    line-height: 40px;
+    font-weight: 600;
+}
+
+#load-btn{
+    height: 60px;
+    width: 180px;
+background-color: #00CCFF;
+border: none;
+margin-left: 80px;
+font-weight: 400;
+font-size: 18px;
+}
+#load-btn:hover{
+    cursor: pointer;
+}
+
+
+
+/* ending footers */
+.ftr-snd{
+    width: 100%;
+    height: 300px;
+    background-color: 
+    #0aadd5;
+
+}
+.count-matter{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+    width: 100%;
+    height: 150px;
+   
+    gap:12px;
+}
+
+.count-matter h2{
+    color: white;
+    font-weight: 800;
+    font-size: 48px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.count-matter p{
+    color: white;
+}
+.ftr-nums{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+    width: 100%;
+    height: 150px;
+  
+}
+
+.final-ftr{
+    width: 100%;
+    height: 30vh;
+    margin-top: 20px;
+  
+}
+#ftr-end{
+    width: 100%;
+    height: 30vh;
+}

@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.home-main{
+    width: 100%;
+    height: 14vh;
+    /* border: 1px solid; */
+    display: flex;
+    
+}
+#icn:hover {
+    cursor: pointer;
+}
+
+.logo{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 14vh;
+
+}
+.logo img{
+    width: 190px;
+    height: 50px;
+}
+.header-links{
+    width: 40%;
+    height: 14vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+ 
+}
+
+.wallet-btn{
+    width: 30%;
+    height: 14vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wallet-btn button{
+    width: 143px;
+    height: 42px;
+    background-color: 
+    #13bae4;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    border-radius: 50px;
+}
+
+/* explore-main */
+
+.explore-main{
+    width: 100%;
+    height: 30vh;
+  
+}
+
+.explore-main1{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.explore-main img{
+   
+    height: 90px;
+    width: 290px;
+}
+
+.explore-main2{
+ 
+    height: 15vh;
+    width: 100%;
+    gap: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.explore-main2 img{
+    width: 170px;
+    height: 84px;
+}
+.explore-main2 button {
+    width: 121px;
+    height: 43px;
+    border-radius: 40px;
+    background-color: white;
+    color: black;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adjust the values as needed */
+}
+#hr{
+    color: dark;
+     border: 1px solid #E2E5E6
+}
+.explore-main2 button:hover{
+    cursor: pointer;
+}
+
+
+.ending-prt{
+    width:100%;
+    height: 17vh;
+  
+}
+.ending{
+    width: 100%;
+    height: 17vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.ending button{
+    width: 130px;
+    height: 42px;
+    border-radius: 50px;
+    background: #00CCFF;
+    font-weight: 700;
+    font-size: 14px;
+    box-shadow: 0 7px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+.ending button:hover{
+    cursor: pointer;
+}
+
+
+
+
