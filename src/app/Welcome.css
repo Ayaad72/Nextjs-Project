@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    position: relative;
+}
+
+body::before {
+    content: "";
+    background: url("../assets/new-bg.jpeg") no-repeat center center/cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+
+.welcome-popup {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-prt {
+    
+  width: 45%;
+  height: 50vh;
+
+  border-radius: 20px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+.connect {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.connect h2 {
+  letter-spacing: 1px;
+}
+.connect p {
+  text-align: center;
+  font-weight: 600;
+  line-height: 24px;
+}
+#span {
+  color: rgb(131, 123, 123);
+}
+.btn-eth {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  gap: 13px;
+}
+.btn-eth button {
+  width: 492px;
+  height: 67px;
+  border-radius: 15px;
+  border: none;
+  background-color: #00ccff;
+  font-weight: 700;
+}
+.btn-eth p {
+  font-size: 12px;
+  font-weight: 500;
+}
+.btn-eth button:hover {
+  cursor: pointer;
+  background-color: rgb(58, 158, 158);
+}
+
+@media screen and (max-width: 1015px) {
+  .btn-eth button {
+    width: 290px;
+  }
+  .connect h2 {
+    font-size: 22px;
+  }
+  .connect p {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 721px) {
+  .btn-eth button {
+    width: 217px;
+    height: 42px;
+  }
+  .connect h2 {
+    font-size: 15px;
+  }
+  .connect p {
+    line-height: 16px;
+    font-size: 13px;
+  }
+  .main-prt {
+    height: 246px;
+  }
+  .btn-eth button {
+    font-weight: 10;
+    width: 164px;
+    font-size: 10px;
+  }
+  .btn-eth p {
+    line-height: 5px;
+  }
+  .main-prt {
+    width: 80%;
+  }
+}
