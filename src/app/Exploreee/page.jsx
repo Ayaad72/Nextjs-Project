@@ -9,7 +9,11 @@ import Artcomponent from "../ArtComponents/Artcomponent.jsx";
 import Art2 from "../Artsecond/Art2.jsx";
 import Art3 from "../Artthird/Art3.jsx";
 import Link from "next/link";
-import finalftr from "../../assets/footer.png";
+import fb from "../../assets/fb.png";
+import linkdin from "../../assets/linkdin.png";
+import path from "../../assets/path.png";
+import utube from "../../assets/utube.png";
+import insta from "../../assets/insta.png";
 
 function Melo() {
   return (
@@ -68,7 +72,31 @@ function Melo() {
         </div>
       </div>
       <div className="final-ftr">
-        <Image id="ftr-end" src={finalftr} alt="Logo" />
+        <div className="ftrprt1">
+          <div className="prt1-icons">
+            <Image id="icons" src={fb} alt="Logo" />
+            <Image id="icons" src={linkdin} alt="Logo" />
+            <Image id="icons" src={path} alt="Logo" />
+            <Image id="icons" src={utube} alt="Logo" />
+            <Image id="icons" src={insta} alt="Logo" />
+            {/* <SlSocialFacebook />
+            <SlSocialLinkedin />
+            <FiTwitter />
+            <FiYoutube />
+            <BsInstagram /> */}
+          </div>
+          <div className="prt2-icons">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+          </div>
+        </div>
+        <hr id="hr-ftr" />
+        <div className="ftrprt2">
+          <div className="final-text">
+            <p>©2020 NFT STORE Oo</p>
+          </div>
+        </div>
       </div>
     </>
   );

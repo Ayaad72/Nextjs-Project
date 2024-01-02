@@ -3,7 +3,16 @@ import "../CreativeEconomy/Creative.css";
 import Image from "next/image";
 import economy from "../../assets/economy.png";
 import counts from "../../assets/Counts.png";
-import finalftr from "../../assets/footer.png";
+import fb from "../../assets/fb.png";
+import linkdin from "../../assets/linkdin.png";
+import path from "../../assets/path.png";
+import utube from "../../assets/utube.png";
+import insta from "../../assets/insta.png";
+// import {SlSocialFacebook } from "reat-icons/sl";
+// import { SlSocialLinkedin } from "react-icons/sl";
+// import { FiTwitter } from "react-icons/fi";
+// import { FiYoutube } from "react-icons/fi";
+// import { BsInstagram } from "react-icons/bs";
 
 function Creative() {
   return (
@@ -36,12 +45,51 @@ function Creative() {
           <p>Our achievement in the journey depicted in numbers</p>
         </div>
         <div className="ftr-nums">
-          <Image src={counts} alt="Logo" />
+          <div className="ftr-nums1">
+            <p>50000</p>
+            <p id="pftr-1">Products</p>
+          </div>
+          <div className="ftr-nums1">
+            <p>31000</p>
+            <p id="pftr-1">Creators</p>
+          </div>
+          <div className="ftr-nums1">
+            <p>50000</p>
+            <p id="pftr-1">Buy/Sell</p>
+          </div>
+          <div className="ftr-nums1">
+            <p>8</p>
+            <p id="pftr-1">Years of Journey</p>
+          </div>
         </div>
       </div>
 
       <div className="final-ftr">
-        <Image id="ftr-end" src={finalftr} alt="Logo" />
+        <div className="ftrprt1">
+          <div className="prt1-icons">
+            <Image src={fb} alt="Logo" />
+            <Image src={linkdin} alt="Logo" />
+            <Image src={path} alt="Logo" />
+            <Image src={utube} alt="Logo" />
+            <Image src={insta} alt="Logo" />
+            {/* <SlSocialFacebook />
+            <SlSocialLinkedin />
+            <FiTwitter />
+            <FiYoutube />
+            <BsInstagram /> */}
+          </div>
+          <div className="prt2-icons">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+          </div>
+        </div>
+        <hr id="hr-ftr" />
+        <div className="ftrprt2">
+          <div className="final-text">
+            <p>©2020 NFT STORE Oo</p>
+          </div>
+        </div>
       </div>
     </>
   );

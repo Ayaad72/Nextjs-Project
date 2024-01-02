@@ -7,6 +7,11 @@ body {
     overflow: hidden;
 }
 
+.span-p{
+    display: flex;
+    
+
+}
 
 
 .Artwork-component {
@@ -19,11 +24,52 @@ body {
 .Art-img1,
 .Art-img2,
 .Art-img3 {
+    align-items: center;
+    
+    font-size: 24px;
+    font-family: "Times New Roman", Times, serif;
+   
     width: 25%;
     height: 80vh;
     display: flex;
+    flex-direction: column;
+    color: #000000;
     justify-content: center;
     overflow: hidden; /* To prevent the image from overflowing its container */
+}
+#yuweko1, #yuweko2, #yuweko3{
+    width:334px ;
+    height:300px ;
+}
+.Art-img1 img{
+    width: 344px;
+    height: 400px;
+}
+.Art-img2 img{
+    width: 344px;
+    height: 400px;
+}
+.Art-img3 img{
+    width: 344px;
+    height: 400px;
+}
+.Arts{
+    box-shadow: 0 0 10px rgba(7, 0, 0, 0.1);
+  padding: 10px;
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+
+}
+#spn-1{
+    width: 52%;
+   
+   
+}
+#spn-2{
+    
+    width: 52%;
+
 }
 
 #img1:hover,
@@ -31,4 +77,11 @@ body {
 #img3:hover {
   
     cursor: pointer;
+}
+
+.Art-img1,
+.Art-img2,
+.Art-img3:hover {
+cursor: pointer;
+
 }

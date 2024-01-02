@@ -1,21 +1,63 @@
 import React from "react";
 import "../ArtComponents/Artcomponent.css";
 import Image from "next/image";
-import comp2 from "../../assets/Group 3.png";
+import comp2 from "../../assets/adam-grl.png";
 
 function Artcomponent() {
   return (
     <>
       <div className="Artwork-component">
         <div className="Art-img1">
-          <Image id="img1" src={comp2} alt="Logo" />
+          <div className="Arts">
+            <Image id="img1" src={comp2} alt="Logo" />
+            <p>Product name</p>
+            <p>Creator name</p>
+            <div className="span-p">
+              <span id="spn-1">
+                <p>Current Bid</p>
+                <p>End In</p>
+              </span>
+              <span id="spn-2">
+                <p>1.7335 ETH</p>
+                <p>2days 54m 07s</p>
+              </span>
+            </div>
+          </div>
         </div>
 
         <div className="Art-img2">
-          <Image id="img2" src={comp2} alt="Logo" />
+          <div className="Arts">
+            <Image id="img1" src={comp2} alt="Logo" />
+            <p>Product name</p>
+            <p>Creator name</p>
+            <div className="span-p">
+              <span id="spn-1">
+                <p>Current Bid</p>
+                <p>End In</p>
+              </span>
+              <span id="spn-2">
+                <p>1.7335 ETH</p>
+                <p>2days 54m 07s</p>
+              </span>
+            </div>
+          </div>
         </div>
         <div className="Art-img3">
-          <Image id="img3" src={comp2} alt="Logo" />
+          <div className="Arts">
+            <Image id="img1" src={comp2} alt="Logo" />
+            <p>Product name</p>
+            <p>Creator name</p>
+            <div className="span-p">
+              <span id="spn-1">
+                <p>Current Bid</p>
+                <p>End In</p>
+              </span>
+              <span id="spn-2">
+                <p>1.7335 ETH</p>
+                <p>2days 54m 07s</p>
+              </span>
+            </div>
+          </div>
         </div>
       </div>
     </>
