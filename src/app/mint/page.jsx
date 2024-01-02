@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
 import logo from "../../assets/Group 8.png";
-import girl from "../../assets/18d1ef4655494b9d7f859a2c18cf2e93 1.png";
+import girl from "../../assets/comp-img.png";
 import currentBid from "../../assets/currentBid.png";
-import AW2 from "../../assets/AW2.png";
-import threePics from "../../assets/threeePics.png"
+// import AW2 from "../../assets/AW2.png";
+import threePics from "../../assets/threeePics.png";
 import creatorName from "../../assets/CreatorName.png";
 import { FaSearch } from "react-icons/fa";
 import "../mint/mint.css";
@@ -17,7 +17,7 @@ function Mint() {
           <Image className="girl" src={logo} alt="Logo" />
         </div>
         <div className="header-links">
-          <a href="">Home</a>
+          <a href="/Homepage">Home</a>
           <a href="">Artworks</a>
           <a href="">Browse</a>
           <a href="">Shop</a>
@@ -75,7 +75,7 @@ function Mint() {
             {" "}
             <button id="buyButton">BUY</button>
             <button id="placeAbid">Place a bid</button>
-            <Image id="threeepics" src={threePics} alt="threePics"/>
+            <Image id="threeepics" src={threePics} alt="threePics" />
           </div>
           {/* <Image id='Aw2' src={AW2} alt='rectangle'></Image> */}
           <Image id="creatorName" src={creatorName} alt="juu"></Image>

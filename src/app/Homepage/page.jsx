@@ -27,7 +27,7 @@ function Home() {
         <div className="wallet-btn">
           <button>
             {" "}
-            <Link href="/Welcome"> Connect Wallet</Link>
+            <Link href="/Popup"> Connect Wallet</Link>
           </button>
         </div>
       </div>
