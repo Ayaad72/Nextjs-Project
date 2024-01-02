@@ -14,31 +14,12 @@ import linkdin from "../../assets/linkdin.png";
 import path from "../../assets/path.png";
 import utube from "../../assets/utube.png";
 import insta from "../../assets/insta.png";
+import Navbar from "../Navbar/page";
 
 function Melo() {
   return (
     <>
-      <div className="home-main">
-        <div className="logo">
-          <Image src={logo} alt="Logo" />
-        </div>
-        <div className="header-links">
-          <a href="/Homepage">Home</a>
-          <a href="/Explore">Artworks</a>
-
-          <a href="">Browse</a>
-          <a href="">Shop</a>
-          <a href="">Search</a>
-          <FaSearch />
-          <i className="fa-light fa-magnifying-glass"></i>
-        </div>
-        <div className="wallet-btn">
-          <button>
-            {" "}
-            <Link href="/Welcome"> Connect Wallet</Link>
-          </button>
-        </div>
-      </div>
+      <Navbar />
       <hr id="hr" />
 
       <section className="explore-main">

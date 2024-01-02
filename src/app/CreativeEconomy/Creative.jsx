@@ -8,6 +8,7 @@ import linkdin from "../../assets/linkdin.png";
 import path from "../../assets/path.png";
 import utube from "../../assets/utube.png";
 import insta from "../../assets/insta.png";
+// import Footer from "../Footer/page";
 // import {SlSocialFacebook } from "reat-icons/sl";
 // import { SlSocialLinkedin } from "react-icons/sl";
 // import { FiTwitter } from "react-icons/fi";
@@ -23,7 +24,6 @@ function Creative() {
 
       <div className="economy">
         <div className="economy-prt1">
-          {/* Add width and height properties */}
           <Image id="economy" src={economy} alt="Logo" />
         </div>
         <div className="economy-prt2">
@@ -60,34 +60,6 @@ function Creative() {
           <div className="ftr-nums1">
             <p>8</p>
             <p id="pftr-1">Years of Journey</p>
-          </div>
-        </div>
-      </div>
-
-      <div className="final-ftr">
-        <div className="ftrprt1">
-          <div className="prt1-icons">
-            <Image src={fb} alt="Logo" />
-            <Image src={linkdin} alt="Logo" />
-            <Image src={path} alt="Logo" />
-            <Image src={utube} alt="Logo" />
-            <Image src={insta} alt="Logo" />
-            {/* <SlSocialFacebook />
-            <SlSocialLinkedin />
-            <FiTwitter />
-            <FiYoutube />
-            <BsInstagram /> */}
-          </div>
-          <div className="prt2-icons">
-            <a href="">Home</a>
-            <a href="">About</a>
-            <a href="">Contact</a>
-          </div>
-        </div>
-        <hr id="hr-ftr" />
-        <div className="ftrprt2">
-          <div className="final-text">
-            <p>©2020 NFT STORE Oo</p>
           </div>
         </div>
       </div>
